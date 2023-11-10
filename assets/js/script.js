@@ -7,9 +7,9 @@ let menos = document.querySelector(".menos");
 mas.onclick = function(){
     cantidad.innerHTML++;
     valor.innerHTML=(cantidad.innerHTML * precioBase).toLocaleString("es-CL");
-}
+};
 
 menos.onclick = function(){
     cantidad.innerHTML--;
     valor.innerHTML=(cantidad.innerHTML * precioBase).toLocaleString("es-CL");
-}
+};
